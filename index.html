@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me - Beyond</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="overlay">
+    <div id="ip-box">
+      <h2 id="location-info">Loading...</h2>
+      <button id="continue-btn">Continue to Website</button>
+    </div>
+
+    <div id="main-site" style="display: none;">
+      <h1 class="title">Buy Documentation</h1>
+      <p><a href="https://t.me/deekingbeyond" target="_blank">Documentation - Contact Owner</a></p>
+
+      <div id="owner-buttons">
+        <button onclick="window.open('https://t.me/beyondtech_v2', '_blank')">Owner Channel</button>
+        <button onclick="window.open('https://t.me/deekingbeyond', '_blank')">Owner Telegram</button>
+      </div>
+
+      <div class="sales-box">
+        <h2>Sales</h2>
+        <button id="enter-sales-btn">Enter Sales</button>
+      </div>
+
+      <div id="sales-options" style="display: none;">
+        <button class="option" onclick="window.open('https://t.me/deekingbeyond', '_blank')">Channel Sales</button>
+        <button class="option" onclick="window.open('https://t.me/deekingbeyond', '_blank')">Account Sales (Telegram)</button>
+        <button class="option" onclick="window.open('https://t.me/deekingbeyond', '_blank')">Panels</button>
+        <button class="option" onclick="window.open('https://t.me/deekingbeyond', '_blank')">Premium Apps</button>
+        <button class="option" onclick="window.open('https://t.me/deekingbeyond', '_blank')">Numbers</button>
+      </div>
+
+      <div class="search-box">
+        <h2>Search Web</h2>
+        <input type="text" id="searchInput" placeholder="Search the web...">
+        <button onclick="searchWeb()">Search</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
